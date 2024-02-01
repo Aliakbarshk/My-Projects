@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="globals.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="desktop-footer">
+      <div class="overlap">
+        <div class="circle"><div class="circle-BG"></div></div>
+        <div class="header"></div>
+        <div class="headericon-text">
+          <img class="logo-top" src="img/logo-top.png" />
+          <div class="text-wrapper">Freebies</div>
+          <div class="div">Store</div>
+          <div class="text-wrapper-2">Portfolio</div>
+          <div class="overlap-group">
+            <img class="youtube-logo-white" src="img/youtube-logo-white-1.png" />
+            <img class="youtube-logo" src="img/youtube-logo.png" />
+          </div>
+        </div>
+        <div class="rectangle">
+          <div class="rectangle-bottom"></div>
+          <div class="rectangle-top"></div>
+        </div>
+        <img class="logo-big" src="img/logo-big.png" />
+        <footer class="footer">
+          <div class="overlap-2">
+            <div class="overlap-group-2">
+              <div class="pickaxepy-gmail-com">pickaxepy@gmail.com<br />vixa.shain@gmail.com</div>
+              <img class="img" src="img/youtube-logo-white-2.png" />
+            </div>
+            <p class="p">Contact us on Discord - @genezyy, @shainnnn</p>
+            <div class="text-wrapper-3">Vixa Official</div>
+            <div class="side-line"></div>
+            <div class="side-line-2"></div>
+          </div>
+        </footer>
+        <p class="explore-our-design">
+          <span class="span">Explore our design<br /></span>
+          <span class="text-wrapper-4">portfolio</span>
+          <span class="span">.</span>
+        </p>
+      </div>
+    </div>
+  </body>
+</html>

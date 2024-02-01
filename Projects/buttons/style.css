@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;1,200&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins' , sans-serif;
+}
+body
+{
+    display: flex;
+    justify-content: center ;
+    min-height: 100vh;
+    align-items: center;
+    background: #0e1538;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.container a {
+    position: relative;
+    width: 160px;
+    height: 60px;
+    display: inline-block;
+    background: white;
+    margin: 20px;
+
+}
+
+.container a::before ,
+.container a::after
+{
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: red;
+    transition: 0.5s;
+}
+
+.container a span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    background: #0e1538;
+    z-index: 10;
+    justify-content: center;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #fff;
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+    font-weight: 900;
+    border: 1px solid #040a29;
+    overflow: hidden;
+
+}
+
+.container a:hover::after
+{
+    inset: -3px;
+    filter: blur(10px);
+
+}
+.container a:hover::before
+{
+    inset: -3px;
+    
+
+}
+
+.container a:nth-child(1):before ,
+.container a:nth-child(1):after {
+    background: linear-gradient(45deg,#00ccff,#d400d4,yellow,red,thistle);
+}
+.container a:nth-child(2):before ,
+.container a:nth-child(2):after {
+    background: linear-gradient(45deg,#ff00ea,#00d46d,thistle,cyan,violet);
+}
+
+.container a span:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    top: 0;
+    left: -50%;
+    width: 100%;
+    height: 100%;
+    background: rgba(255,255,255,0.075);
+    transform: skew(25deg);
+}
+
+.container a:nth-child(3):before ,
+.container a:nth-child(3):after {
+    background: linear-gradient(45deg,#ffb3f9,#b9f2d6,rgb(255, 206, 255),rgb(196, 255, 255),rgb(255, 235, 255));
+}
+
+.container a:nth-child(4):before ,
+.container a:nth-child(4):after {
+    background: linear-gradient(45deg,red,#00ff84,rgb(255, 0, 255),rgb(196, 255, 255),rgb(255, 235, 255));
+}
+.container a:nth-child(5):before ,
+.container a:nth-child(5):after {
+    background: linear-gradient(45deg,red,rgb(255, 0, 255),rgb(196, 255, 255),rgb(255, 235, 255), yellow);
+}
+
+.text {
+ content: "UNSEEN PROJECTS";
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin-right: 20px;
+  color: white;
+  font-size: 20px;
+  left: 40%;
+  transition: 0.90s;
+  padding: 20px;
+  font-weight: 800;
+
+}
+.text:hover{
+    font-size: 30px;
+        
+}
+

@@ -1,0 +1,3 @@
+ <video autoplay loop muted plays-inline class="hero-vid">
+        <source src="0108.mp4" type="video/mp4">
+    </video>

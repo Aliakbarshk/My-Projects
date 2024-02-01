@@ -1,0 +1,832 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+
+@-webkit-keyframes text-pop-up-top{0%{-webkit-transform:translateY(0);transform:translateY(0);-webkit-transform-origin:50% 50%;transform-origin:50% 50%;text-shadow:none}100%{-webkit-transform:translateY(-50px);transform:translateY(-50px);-webkit-transform-origin:50% 50%;transform-origin:50% 50%;text-shadow:0 1px 0 #ccc,0 2px 0 #ccc,0 3px 0 #ccc,0 4px 0 #ccc,0 5px 0 #ccc,0 6px 0 #ccc,0 7px 0 #ccc,0 8px 0 #ccc,0 9px 0 #ccc,0 50px 30px rgba(0,0,0,.3)}}@keyframes text-pop-up-top{0%{-webkit-transform:translateY(0);transform:translateY(0);-webkit-transform-origin:50% 50%;transform-origin:50% 50%;text-shadow:none}100%{-webkit-transform:translateY(-50px);transform:translateY(-50px);-webkit-transform-origin:50% 50%;transform-origin:50% 50%;text-shadow:0 1px 0 #ccc,0 2px 0 #ccc,0 3px 0 #ccc,0 4px 0 #ccc,0 5px 0 #ccc,0 6px 0 #ccc,0 7px 0 #ccc,0 8px 0 #ccc,0 9px 0 #ccc,0 50px 30px rgba(0,0,0,.3)}}
+* { 
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.desktop-home {
+  position: relative;
+  width: 1920px;
+  height: 1080px;
+  background-color: #282828;
+  overflow: hidden;
+}
+
+.desktop-home .overlap-group {
+  position: absolute;
+  width: 1745px;
+  height: 1965px;
+  top: -833px;
+  left: 210px;
+}
+
+.desktop-home .circle {
+  position: absolute;
+  width: 1522px;
+  height: 1522px;
+  top: 223px;
+  left: 223px;
+  background-color: #d2000008;
+  border-radius: 761px;
+  box-shadow: 0px 0px 250px #fc4f154c;
+}
+
+.desktop-home .circle-BG {
+  height: 1522px;
+  background-color: #f2bcaa;
+  border-radius: 761px;
+  transition: 80ms;
+}
+.desktop-home .circle-BG::-webkit-scrollbar{
+  translatey:80px ;
+  translatex:80px ;
+
+}
+
+
+
+
+
+.desktop-home .rectangle {
+  position: absolute;
+  width: 445px;
+  height: 1965px;
+  top: 0;
+  left: 1122px;
+}
+
+.desktop-home .rectangle-bottom {
+  height: 929px;
+  top: 1036px;
+  position: absolute;
+  width: 445px;
+  left: 0;
+  border-radius: 45px;
+  background: linear-gradient(180deg, rgb(245.44, 133.25, 95.11) 0%, rgb(252.88, 79.89, 21.07) 100%);
+}
+
+.desktop-home .rectangle-top {
+  height: 991px;
+  top: 0;
+  transform: rotate(-180deg);
+  position: absolute;
+  width: 445px;
+  left: 0;
+  border-radius: 45px;
+  background: linear-gradient(180deg, rgb(245.44, 133.25, 95.11) 0%, rgb(252.88, 79.89, 21.07) 100%);
+}
+
+.desktop-home .logo-big {
+  width: 669px;
+  height: 580px;
+  top: 972px;
+  left: 1000px;
+  position: absolute;
+  object-fit: cover;
+}
+
+.desktop-home .text-wrapper {
+  position: relative;
+  width: 957px;
+  top: 1227px;
+  left: 0;
+  font-family: "Integral CF-DemiBold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 137px;
+  text-align: center;
+  letter-spacing: -1.37px;
+  line-height: 117.5px;
+}
+
+.desktop-home .group {
+  position: absolute;
+  width: 422px;
+  height: 118px;
+  top: 852px;
+  left: 3px;
+  cursor: pointer;
+}
+
+.desktop-home .fb {
+  position: absolute;
+  top: 0;
+  left: 0;
+  text-shadow: 0px 0px 17px #0000001a;
+  font-family: "Helvetica Now Text -ExtraBold", Helvetica;
+  font-weight: 800;
+  color: #ffffff;
+  font-size: 24px;
+  text-align: center;
+  letter-spacing: -0.24px;
+  line-height: 117.5px;
+  white-space: nowrap;
+}
+
+.desktop-home .text-wrapper-2 {
+  position: absolute;
+  top: 0;
+  left: 140px;
+  text-shadow: 0px 0px 17px #0000001a;
+  font-family: "Helvetica Now Text -ExtraBold", Helvetica;
+  font-weight: 800;
+  color: #ffffff;
+  font-size: 24px;
+  text-align: center;
+  letter-spacing: -0.24px;
+  line-height: 117.5px;
+  white-space: nowrap;
+}
+
+.desktop-home .text-wrapper-3 {
+  position: absolute;
+  top: 0;
+  left: 243px;
+  text-shadow: 0px 0px 17px #0000001a;
+  font-family: "Helvetica Now Text -ExtraBold", Helvetica;
+  font-weight: 800;
+  color: #ffffff;
+  font-size: 24px;
+  text-align: center;
+  letter-spacing: -0.24px;
+  line-height: 117.5px;
+  white-space: nowrap;
+}
+
+.desktop-home .youtube-logo-white {
+    position: relative;
+    width: 62px;
+    height: 34px;
+    top: 42px;
+    left: 362px;
+ 
+}
+
+.desktop-home .logo-top {
+  width: 162px;
+  height: 162px;
+  top: 1px;
+  left: 1px;
+  position: absolute;
+  object-fit: cover;
+}
+/* .image {
+  width: 780px;
+  height: 440px;
+} */
+
+ .group a:hover  {
+    color: rgb(255, 51, 0);
+    font-size: 26px;
+    
+    
+}
+
+
+a{
+  text-decoration: none;
+  transition-duration: 70ms;
+  font-weight: 800;
+}
+
+.youtube-logo-white:hover {
+  font-size: 29px;
+}
+
+.desktop-home .text-wrapper{-webkit-animation:text-pop-up-top .5s cubic-bezier(.25,.46,.45,.94) both;animation:text-pop-up-top .5s cubic-bezier(.25,.46,.45,.94) both}
+
+.desktop-home .text-wrapper {
+  transition: transform 0.5s ease-in-out;
+}
+
+.desktop-home .text-wrapper:hover {
+  transform: translateY(-5px);
+}
+
+
+
+@-webkit-keyframes text-shadow-pop-left{0%{text-shadow:0 0 #555,0 0 #555,0 0 #555,0 0 #555,0 0 #555,0 0 #555,0 0 #555,0 0 #555;-webkit-transform:translateX(0);transform:translateX(0)}100%{text-shadow:-1px 0 #555,-2px 0 #555,-3px 0 #555,-4px 0 #555,-5px 0 #555,-6px 0 #555,-7px 0 #555,-8px 0 #555;-webkit-transform:translateX(8px);transform:translateX(8px)}}@keyframes text-shadow-pop-left{0%{text-shadow:0 0 #555,0 0 #555,0 0 #555,0 0 #555,0 0 #555,0 0 #555,0 0 #555,0 0 #555;-webkit-transform:translateX(0);transform:translateX(0)}100%{text-shadow:-1px 0 #555,-2px 0 #555,-3px 0 #555,-4px 0 #555,-5px 0 #555,-6px 0 #555,-7px 0 #555,-8px 0 #555;-webkit-transform:translateX(8px);transform:translateX(8px)}}
+
+
+.logo-big{
+  transition: 1000ms;
+}
+.logo-big:hover{
+  rotate: 90deg;
+}
+.logo-big:active{
+  rotate: -360deg;
+}
+
+.group {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      background-color: #fff; /* Set your desired background color */
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional: Add a box shadow for a subtle effect */
+      z-index: 1000; /* Ensure the navigation is above other elements */
+    }
+
+    .group a {
+      margin: 0 10px;
+      text-decoration: none;
+      color: #333; 
+
+    }
+
+    .group img {
+      margin: 0 10px;
+      height: 30px; 
+    }
+
+   /* NAVBAR */
+
+ .navbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 6vh;
+  z-index: 100000;
+  position: sticky;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav a {
+  margin-right: 10px;  Adjust the margin to your desired spacing 
+  color: #000000;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease; 
+}
+
+.navbar img {
+  height: 30px;
+  margin-right: 20px;
+}
+
+.navbar {
+  background-color: none;
+  padding: 15px 20px;
+  color: #fff;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);
+  transition: 80ms;
+}
+.navbar a{
+  transition: 95ms;
+}
+nav a:hover {
+  color: #ffa3a3;
+  -webkit-animation: text-shadow-drop-center 0.6s both;
+  animation: text-shadow-drop-center 0.6s both;
+  font-size: 20px;
+  font-weight: 800;
+  
+} 
+
+@-webkit-keyframes text-shadow-drop-center {
+  0% {
+    text-shadow: 0 0 0 transparent;
+  }
+  100% {
+    text-shadow: 0 0 18px rgba(0, 0, 0, .35);
+  }
+}
+
+@keyframes text-shadow-drop-center {
+  0% {
+    text-shadow: 0 0 0 transparent;
+  }
+  100% {
+    text-shadow: 0 0 18px rgba(0, 0, 0, .35);
+  }
+}
+
+header {
+  background-color: #333;
+  padding: 15px 20px;
+  color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin-right: 20px;
+  font-weight: bold;
+  /* transition: color 0.3s ease; */
+}
+
+.navbar img {
+  height: 30px;
+  margin-right: 20px;
+}
+
+.logo-top {
+  height: 50px; 
+}
+
+header {
+  position: fixed;
+  z-index: 100000;
+  width: 100%;
+}
+
+
+/* Page 2 */
+
+
+
+.desktop-about-us-2 {
+  width: 1920px;
+  height: 1080px;
+  background-color: #282828;
+  overflow: hidden;
+}
+
+.desktop-about-us-2 .overlap-2 {
+  position: relative;
+  width: 2638px;
+  height: 2120px;
+  top: -393px;
+  left: -718px;
+}
+
+/* .desktop-about-us-2 .circle-2 {
+    position: absolute;
+    width: 1522px;
+    height: 1522px;
+    top: 549px;
+    left: 273px;
+    background-color: #f2bcaa;
+    border-radius: 761px;
+    box-shadow: 0px 0px 250px #fc4f154c;
+} */
+.desktop-about-us-2 .circle-2 {
+  position: absolute;
+    width: 1483px;
+    height: 972px;
+    top: 428px;
+    left: 170px;
+    background-color: #f2bcaa;
+    border-radius: 761px;
+    box-shadow: 0px 106px 150px #fc4f154c
+}
+
+
+/* .desktop-about-us-2 .circle-BG-2 {
+  height: 1522px;
+  background-color: #f2bcaa;
+  border-radius: 761px;
+  position: absolute;
+    width: 1483px;
+    height: 972px;
+    top: 428px;
+    left: 170px;
+    background-color: #f2bcaa;
+    border-radius: 761px;
+    box-shadow: 0px 0px 150px #fc4f154c;
+} */
+
+.desktop-about-us-2 .vision-made-real-2 {
+  position: absolute;
+  width: 957px;
+  top: 0;
+  left: 931px;
+  text-shadow: 3px 3px 0px #f15b27a6;
+  font-family: "Integral CF-DemiBold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 137px;
+  text-align: center;
+  letter-spacing: -1.37px;
+  line-height: 117.5px;
+}
+
+.desktop-about-us-2 .header-2 {
+  position: absolute;
+  width: 1920px;
+  height: 156px;
+  top: 393px;
+  left: 718px;
+  background-color: #ffffff;
+  box-shadow: 0px 4px 25px #00000026;
+}
+
+.desktop-about-us-2 .headericon-text-2 {
+  position: absolute;
+  width: 618px;
+  height: 128px;
+  top: 407px;
+  left: 736px;
+}
+
+.desktop-about-us-2 .logo-top-2 {
+  width: 129px;
+  height: 128px;
+  top: 0;
+  left: 0;
+  position: absolute;
+  object-fit: cover;
+}
+
+.desktop-about-us-2 .text-wrapper-2 {
+  position: absolute;
+  top: 5px;
+  left: 195px;
+  font-family: "Helvetica Now Text -ExtraBold", Helvetica;
+  font-weight: 800;
+  color: #000000;
+  font-size: 24px;
+  text-align: center;
+  letter-spacing: -0.24px;
+  line-height: 117.5px;
+  white-space: nowrap;
+}
+
+.desktop-about-us-2 .div-2 {
+  position: absolute;
+  top: 5px;
+  left: 335px;
+  font-family: "Helvetica Now Text -ExtraBold", Helvetica;
+  font-weight: 800;
+  color: #000000;
+  font-size: 24px;
+  text-align: center;
+  letter-spacing: -0.24px;
+  line-height: 117.5px;
+  white-space: nowrap;
+}
+
+.desktop-about-us-2 .text-wrapper-2-2 {
+  position: absolute;
+  top: 5px;
+  left: 438px;
+  font-family: "Helvetica Now Text -ExtraBold", Helvetica;
+  font-weight: 800;
+  color: #000000;
+  font-size: 24px;
+  text-align: center;
+  letter-spacing: -0.24px;
+  line-height: 117.5px;
+  white-space: nowrap;
+}
+
+.desktop-about-us-2 .overlap-group-2 {
+  position: absolute;
+  width: 35px;
+  height: 24px;
+  top: 52px;
+  left: 577px;
+}
+
+.desktop-about-us-2 .youtube-logo-white-2 {
+  position: absolute;
+  width: 34px;
+  height: 24px;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+}
+
+.desktop-about-us-2 .youtube-logo-2 {
+  position: absolute;
+  width: 35px;
+  height: 24px;
+  top: 0;
+  left: 0;
+}
+
+.desktop-about-us-2 .rectangle-2 {
+  position: absolute;
+  width: 445px;
+  height: 1965px;
+  top: 155px;
+  left: 2050px;
+}
+
+.desktop-about-us-2 .rectangle-bottom-2 {
+  height: 929px;
+  top: 1036px;
+  background: linear-gradient(180deg, rgb(245.44, 133.25, 95.11) 0%, rgb(253, 84, 27) 100%);
+  position: absolute;
+  width: 445px;
+  left: 5px;
+  border-radius: 45px;
+}
+
+.desktop-about-us-2 .rectangle-top-2 {
+  height: 991px;
+  top: 0;
+  transform: rotate(-180deg);
+  background: linear-gradient(
+    180deg,
+    rgb(245.44, 133.25, 95.11) 0%,
+    rgb(253, 84, 27) 75%,
+    rgb(250.36, 101.19, 50.77) 99.99%
+  );
+  position: absolute;
+  width: 445px;
+  left: 0;
+  border-radius: 45px;
+}
+
+.desktop-about-us-2 .logo-big-2 {
+  width: 906px;
+  height: 716px;
+  top: 393px;
+  left: 1732px;
+  position: absolute;
+  object-fit: cover;
+}
+
+.desktop-about-us-2 .about-US-2 {
+  position: absolute;
+  width: 644px;
+  height: 441px;
+  top: 624px;
+  left: 752px;
+}
+
+.desktop-about-us-2 .text-wrapper-3-2 {
+  position: absolute;
+  top: 0;
+  left: 38px;
+  text-shadow: 3px 3px 0px #f15b27a6;
+  font-family: "Helvetica Now Text -ExtraBold", Helvetica;
+  font-weight: 800;
+  color: #ffffff;
+  font-size: 128px;
+  text-align: center;
+  letter-spacing: -2.56px;
+  line-height: 117.5px;
+  white-space: nowrap;
+}
+
+.desktop-about-us-2 .we-re-shain-genezy-2 {
+  position: absolute;
+  top: 178px;
+  left: 38px;
+  text-shadow: 3px 3px 10px #f15b271c;
+  font-family: "Helvetica Now Text -ExtraBold", Helvetica;
+  font-weight: 800;
+  color: #ffffff;
+  font-size: 48px;
+  letter-spacing: -0.
+}
+
+/* page3 */
+
+.desktop-footer-3 {
+  width: 1920px;
+  height: 1080px;
+  background-color: #282828;
+  overflow: hidden;
+}
+
+.desktop-footer-3 .overlap-3 {
+  position: relative;
+  width: 2181px;
+  height: 2558px;
+  top: -752px;
+  left: -255px;
+}
+
+.desktop-footer-3 .circle-3 {
+  position: absolute;
+  width: 1522px;
+  height: 1522px;
+  top: 1036px;
+  left: 0;
+  background-color: #d2000008;
+  border-radius: 761px;
+  box-shadow: 0px 0px 250px #fc4f154c;
+}
+
+.desktop-footer-3 .circle-BG-3 {
+  height: 1522px;
+  background-color: #f2bcaa;
+  border-radius: 761px;
+}
+
+.desktop-footer-3 .header-3 {
+  position: absolute;
+  width: 1920px;
+  height: 156px;
+  top: 752px;
+  left: 255px;
+  background-color: #ffffff;
+  box-shadow: 0px 4px 25px #00000026;
+}
+
+.desktop-footer-3 .headericon-text-3 {
+  position: absolute;
+  width: 618px;
+  height: 128px;
+  top: 766px;
+  left: 273px;
+}
+
+.desktop-footer-3 .logo-top-3 {
+  width: 129px;
+  height: 128px;
+  top: 0;
+  left: 0;
+  position: absolute;
+  object-fit: cover;
+}
+/* 
+.desktop-footer-3 .text-wrapper-3 {
+  position: absolute;
+  top: 5px;
+  left: 195px;
+  font-family: "Helvetica Now Text -ExtraBold", Helvetica;
+  font-weight: 800;
+  color: #000000;
+  font-size: 24px;
+  text-align: center;
+  letter-spacing: -0.24px;
+  line-height: 117.5px;
+  white-space: nowrap;
+} */
+
+.desktop-footer-3 .div-3 {
+  position: absolute;
+  top: 5px;
+  left: 335px;
+  font-family: "Helvetica Now Text -ExtraBold", Helvetica;
+  font-weight: 800;
+  color: #000000;
+  font-size: 24px;
+  text-align: center;
+  letter-spacing: -0.24px;
+  line-height: 117.5px;
+  white-space: nowrap;
+}
+
+.desktop-footer-3 .text-wrapper-2-3 {
+  position: absolute;
+  top: 5px;
+  left: 438px;
+  font-family: "Helvetica Now Text -ExtraBold", Helvetica;
+  font-weight: 800;
+  color: #000000;
+  font-size: 24px;
+  text-align: center;
+  letter-spacing: -0.24px;
+  line-height: 117.5px;
+  white-space: nowrap;
+}
+
+.desktop-footer-3 .overlap-group-3 {
+  position: absolute;
+  width: 35px;
+  height: 24px;
+  top: 52px;
+  left: 577px;
+}
+
+.desktop-footer-3 .youtube-logo-white-3 {
+  width: 34px;
+  height: 24px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  object-fit: cover;
+}
+
+.desktop-footer-3 .youtube-logo-3 {
+  position: absolute;
+  width: 35px;
+  height: 24px;
+  top: 0;
+  left: 0;
+}
+
+.desktop-footer-3 .rectangle-3 {
+  position: absolute;
+  width: 445px;
+  height: 1965px;
+  top: 0;
+  left: 1592px;
+}
+
+.desktop-footer-3 .rectangle-bottom-3 {
+  height: 929px;
+  top: 1036px;
+  background: linear-gradient(180deg, rgb(245.44, 133.25, 95.11) 0%, rgb(253, 84, 27) 100%);
+  position: absolute;
+  width: 445px;
+  left: 0;
+  border-radius: 45px;
+}
+
+.desktop-footer-3 .rectangle-top-3 {
+  height: 991px;
+  top: 0;
+  transform: rotate(-180deg);
+  background: linear-gradient(180deg, rgb(245.44, 133.25, 95.11) 0%, rgb(253, 84, 27) 75%, rgb(250.36, 101.19, 50.77) 99.99%);
+  position: absolute;
+  width: 445px;
+  left: 0;
+  border-radius: 45px;
+}
+
+.desktop-footer-3 .logo-big-3 {
+  width: 900px;
+  height: 740px;
+  top: 833px;
+  left: 1275px;
+  position: absolute;
+  object-fit: cover;
+}
+
+.desktop-footer-3 .footer-3 {
+  position: absolute;
+  width: 1926px;
+  height: 313px;
+  top: 1519px;
+  left: 255px;
+  background-color: transparent;
+}
+
+.desktop-footer-3 .overlap-2-3 {
+  position: relative;
+  width: 1920px;
+  height: 313px;
+  background-color: #282828;
+  box-shadow: 0px -4px 115px #ff3d002e;
+}
+
+.desktop-footer-3 .overlap-group-2-3 {
+  position: absolute;
+  width: 339px;
+  height: 123px;
+  top: 98px;
+  left: 791px;
+}
+
+.desktop-footer-3 .pickaxepy-gmail-com-3 {
+  position: absolute;
+  width: 339px;
+  height: 66px;
+  top: 57px;
+  left: 0;
+  font-family: "Helvetica Now Text -ExtraBold", Helvetica;
+  font-weight: 800;
+  color: #ffffff;
+  font-size: 24px;
+  text-align: center;
+  letter-spacing: -0.24px;
+  line-height: 31.5px;
+}
+
+.desktop-footer-3 .img-3 {
+  width: 68px;
+  height: 58px;
+  left: 135px;
+  position: absolute;
+  top: 0;
+  object-fit: cover;
+}
+
+.desktop-footer-3 .p-3 {
+  position: absolute;
+  width: 544px;
+  height: 39px;
+  top: 229px;
+  left: 688px;
+  font-family: "Helvetica Now Text -ExtraBold", Helvetica;
+  font-weight: 800;
+  color: #ffffff;
+  font-size: 24px;
+  text-align: center;
+  letter-spacing: -0.24px;
+  line-height:
+}
+.desktop-footer-3 {
+  width: 1920px;
+  height: 1080px;
+  background-color: #282828;
+  overflow: hidden;
+}
+
+
